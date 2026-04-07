@@ -2,19 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
+<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap");
+=======
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+>>>>>>> a613494cec0a95cc47ee9727800188e1ba0cf24a
 
 @layer base {
   :root {
     --background: 210 20% 98%;
+<<<<<<< HEAD
     --foreground: 275 60% 10%;
 
     --card: 0 0% 100%;
     --card-foreground: 270 20% 10%;
+=======
+    --foreground: 220 20% 10%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 20% 10%;
+>>>>>>> a613494cec0a95cc47ee9727800188e1ba0cf24a
 
     --popover: 0 0% 100%;
     --popover-foreground: 220 20% 10%;
 
+<<<<<<< HEAD
     --primary: 270 100% 20%;
     --primary-foreground: 0 0% 100%;
 
@@ -25,18 +37,35 @@
     --muted-foreground: 285 80% 70%;
 
     --accent: 275 80% 65%;
+=======
+    --primary: 175 80% 40%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 220 15% 92%;
+    --secondary-foreground: 220 20% 20%;
+
+    --muted: 220 15% 95%;
+    --muted-foreground: 220 10% 45%;
+
+    --accent: 175 80% 45%;
+>>>>>>> a613494cec0a95cc47ee9727800188e1ba0cf24a
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
+<<<<<<< HEAD
     --border: 275 15% 88%;
+=======
+    --border: 220 15% 88%;
+>>>>>>> a613494cec0a95cc47ee9727800188e1ba0cf24a
     --input: 220 15% 88%;
     --ring: 175 80% 40%;
 
     --radius: 0.75rem;
 
     /* Custom tokens */
+<<<<<<< HEAD
     --gradient-primary: linear-gradient(
       135deg,
       hsl(303, 78%, 62%),
@@ -53,6 +82,11 @@
       hsl(0, 0%, 100%) 100%
     );
     --shadow-glow: 0 0 40px hsla(311, 100%, 65%, 0.8);
+=======
+    --gradient-primary: linear-gradient(135deg, hsl(175 80% 40%), hsl(200 80% 50%));
+    --gradient-hero: linear-gradient(180deg, hsl(210 20% 98%) 0%, hsl(210 25% 94%) 100%);
+    --shadow-glow: 0 0 40px hsl(175 80% 40% / 0.3);
+>>>>>>> a613494cec0a95cc47ee9727800188e1ba0cf24a
     --shadow-card: 0 4px 20px hsl(220 20% 10% / 0.08);
     --shadow-card-hover: 0 8px 30px hsl(220 20% 10% / 0.12);
 
@@ -76,21 +110,33 @@
     --popover: 220 25% 10%;
     --popover-foreground: 210 20% 98%;
 
+<<<<<<< HEAD
     --primary: 275 80% 50%;
+=======
+    --primary: 175 80% 50%;
+>>>>>>> a613494cec0a95cc47ee9727800188e1ba0cf24a
     --primary-foreground: 220 25% 6%;
 
     --secondary: 220 20% 18%;
     --secondary-foreground: 210 20% 90%;
 
+<<<<<<< HEAD
     --muted: 275 100% 22%;
     --muted-foreground: 275 15% 78%;
 
     --accent: 270 10% 50%;
+=======
+    --muted: 220 20% 15%;
+    --muted-foreground: 220 15% 60%;
+
+    --accent: 175 80% 50%;
+>>>>>>> a613494cec0a95cc47ee9727800188e1ba0cf24a
     --accent-foreground: 220 25% 6%;
 
     --destructive: 0 70% 50%;
     --destructive-foreground: 0 0% 100%;
 
+<<<<<<< HEAD
     --border: 275 100% 22%;
     --input: 220 20% 18%;
     --ring: 275 80% 50%;
@@ -114,6 +160,19 @@
     --shadow-glow: 0 0 60px hsla(281, 81%, 79%, 0.4);
     --shadow-card: 0 4px 20px hsl(0 0% 0% / 0.3);
     --shadow-card-hover: 0 8px 30px hsl(175 80% 50% / 0.15);
+=======
+    --border: 220 20% 18%;
+    --input: 220 20% 18%;
+    --ring: 175 80% 50%;
+
+    /* Custom tokens dark */
+    --gradient-primary: linear-gradient(135deg, hsl(175 80% 50%), hsl(200 80% 60%));
+    --gradient-hero: linear-gradient(180deg, hsl(220 25% 6%) 0%, hsl(220 30% 10%) 100%);
+    --shadow-glow: 0 0 60px hsl(175 80% 50% / 0.4);
+    --shadow-card: 0 4px 20px hsl(0 0% 0% / 0.3);
+    --shadow-card-hover: 0 8px 30px hsl(175 80% 50% / 0.15);
+
+>>>>>>> a613494cec0a95cc47ee9727800188e1ba0cf24a
     --sidebar-background: 220 25% 8%;
     --sidebar-foreground: 210 20% 90%;
     --sidebar-primary: 175 80% 50%;
@@ -132,6 +191,7 @@
 
   body {
     @apply bg-background text-foreground font-sans antialiased;
+<<<<<<< HEAD
     font-family: "Inter", sans-serif;
   }
 
@@ -142,13 +202,23 @@
   h5,
   h6 {
     font-family: "Space Grotesk", sans-serif;
+=======
+    font-family: 'Inter', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Space Grotesk', sans-serif;
+>>>>>>> a613494cec0a95cc47ee9727800188e1ba0cf24a
   }
 }
 
 @layer components {
+<<<<<<< HEAD
   .bg-navbg {
     background: var(--navbg);
   }
+=======
+>>>>>>> a613494cec0a95cc47ee9727800188e1ba0cf24a
   .text-gradient {
     @apply bg-clip-text text-transparent;
     background-image: var(--gradient-primary);
@@ -193,8 +263,12 @@
   }
 
   @keyframes float {
+<<<<<<< HEAD
     0%,
     100% {
+=======
+    0%, 100% {
+>>>>>>> a613494cec0a95cc47ee9727800188e1ba0cf24a
       transform: translateY(0px);
     }
     50% {
@@ -203,8 +277,12 @@
   }
 
   @keyframes pulse-glow {
+<<<<<<< HEAD
     0%,
     100% {
+=======
+    0%, 100% {
+>>>>>>> a613494cec0a95cc47ee9727800188e1ba0cf24a
       opacity: 1;
     }
     50% {

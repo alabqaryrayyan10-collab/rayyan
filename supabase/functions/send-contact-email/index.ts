@@ -91,7 +91,11 @@ const handler = async (req: Request): Promise<Response> => {
         headers: { "Content-Type": "application/json", ...corsHeaders },
       }
     );
+<<<<<<< HEAD
   } catch (error: unknown) {
+=======
+  } catch (error: any) {
+>>>>>>> a613494cec0a95cc47ee9727800188e1ba0cf24a
     console.error("Error in send-contact-email function:", error);
     return new Response(
       JSON.stringify({ error: error.message }),
