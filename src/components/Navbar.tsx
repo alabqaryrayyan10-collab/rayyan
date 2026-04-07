@@ -44,11 +44,7 @@ export default function Navbar({ isDark, toggleTheme }: NavbarProps) {
         isScrolled ? 'glass-strong shadow-card' : 'bg-transparent'
       }`}
     >
-<<<<<<< HEAD
       <div className="container mx-auto px-4 bg-navbg">
-=======
-      <div className="container mx-auto px-4">
->>>>>>> a613494cec0a95cc47ee9727800188e1ba0cf24a
         <div className="flex items-center justify-between h-16 md:h-20">
           <motion.a
             href="#home"
@@ -59,11 +55,7 @@ export default function Navbar({ isDark, toggleTheme }: NavbarProps) {
             className="font-display text-xl md:text-2xl font-bold text-gradient cursor-pointer"
             whileHover={{ scale: 1.05 }}
           >
-<<<<<<< HEAD
            Naufal's Portfolio
-=======
-            &lt;Dev /&gt;
->>>>>>> a613494cec0a95cc47ee9727800188e1ba0cf24a
           </motion.a>
 
           {/* Desktop Navigation */}
