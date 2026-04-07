@@ -5,17 +5,10 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
-<<<<<<< HEAD
     { icon: Github, href: 'https://github.com/naufal-angkasah/tes-modul-aja.git', label: 'GitHub' },
     { icon: Linkedin, href: 'https://www.linkedin.com/in/naufal-angkasah/', label: 'LinkedIn' },
     // { icon: Youtube, href: '#', label: 'YouTube' },
     // { icon: Instagram, href: '#', label: 'Instagram' },
-=======
-    { icon: Github, href: '#', label: 'GitHub' },
-    { icon: Linkedin, href: '#', label: 'LinkedIn' },
-    { icon: Youtube, href: '#', label: 'YouTube' },
-    { icon: Instagram, href: '#', label: 'Instagram' },
->>>>>>> a613494cec0a95cc47ee9727800188e1ba0cf24a
   ];
 
   return (
@@ -28,15 +21,9 @@ export default function Footer() {
             viewport={{ once: true }}
             className="flex items-center gap-2 text-muted-foreground"
           >
-<<<<<<< HEAD
             <span>© {currentYear} Made</span>
             {/* <Heart className="h-4 w-4 text-destructive fill-destructive" /> */}
             <span>by Naufal.A</span>
-=======
-            <span>© {currentYear} Made with</span>
-            <Heart className="h-4 w-4 text-destructive fill-destructive" />
-            <span>by Developer</span>
->>>>>>> a613494cec0a95cc47ee9727800188e1ba0cf24a
           </motion.div>
 
           <motion.div
@@ -49,11 +36,8 @@ export default function Footer() {
               <a
                 key={social.label}
                 href={social.href}
-<<<<<<< HEAD
                 target="_blank"
                 rel="noopener noreferrer"
-=======
->>>>>>> a613494cec0a95cc47ee9727800188e1ba0cf24a
                 className="p-2 rounded-full hover:bg-muted transition-colors text-muted-foreground hover:text-foreground"
                 aria-label={social.label}
               >
